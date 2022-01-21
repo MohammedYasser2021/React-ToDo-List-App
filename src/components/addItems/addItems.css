@@ -1,0 +1,46 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: #ddd;
+}
+
+.App {
+  margin: 50px auto;
+  width: 900px;
+  text-align: center;
+  background-color: crimson;
+  padding: 20px;
+}
+
+.App h1 {
+  color: white;
+}
+
+.App form {
+  width: 100%;
+}
+
+.App form input[type="text"], .App form input[type='number'] {
+  width: 42%;
+  padding: 8px 15px;
+  border: none;
+  outline: none;
+  border: 1px solid #777;
+  font-size: 18px;
+}
+
+.App form input[type='submit'] {
+  width: 16%;
+  padding: 8px 15px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: darkslateblue;
+  font-size: 18px;
+  color: white;
+  border: 1px solid darkslateblue;
+}
+/*# sourceMappingURL=addItems.css.map */
